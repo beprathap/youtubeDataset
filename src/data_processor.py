@@ -17,7 +17,7 @@ def extract_required_fields(raw_data):
             'channel_title': item['snippet']['title'],
             'description': item['snippet']['description'],
             'published_at': item['snippet']['publishedAt'],
-            'country': item['snippet']['country'],
+            # 'country': item['snippet']['country'],
             'subscriber_count': item['statistics']['subscriberCount'],
             'view_count': item['statistics']['viewCount'],
             'video_count': item['statistics']['videoCount'],

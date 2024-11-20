@@ -3,7 +3,6 @@ from datetime import datetime
 from src.config import API_KEY, CHANNEL_IDS, RAW_DATA_PATH, PROCESSED_DATA_PATH
 from src.youtube_api import YouTubeAPI
 from src.data_processor import extract_required_fields
-from src.data_transformer import update_datatypes, save_to_csv
 
 def main():
     # Initialize YouTube API
@@ -28,14 +27,6 @@ def main():
 
         # Process data
         extracted_data = extract_required_fields(raw_data)
-
-        # Transform data
-        df = update_datatypes(extracted_data)
-
-        # Save processed data
-        processed_filename = os.path.join(PROCESSED_DATA_PATH, f'youtube_processed_{timestamp}.csv')
-        save_to_csv(df, processed_filename)
-        print(f"Processed data saved to {processed_filename}")
     else:
         print("Failed to retrieve data")
 
