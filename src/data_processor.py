@@ -25,8 +25,3 @@ def extract_required_fields(raw_data):
         }
         extracted_data.append(channel_data)
     return extracted_data
-
-
-# def load_raw_json(filename):
-#     with open(filename, 'r') as f:
-#         return json.load(f)
