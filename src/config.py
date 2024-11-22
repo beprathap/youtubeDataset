@@ -20,4 +20,3 @@ CHANNEL_IDS = ['UClFSU9_bUb4Rc6OYfTt5SPw', # Ask Me Anything: Philip DeFranco Sh
                 'UCq-Fj5jknLsUf-MWSy4_brA' # Music: T-Series
                ]
 RAW_DATA_PATH = os.path.join(PROJECT_ROOT, 'data', 'raw')
-PROCESSED_DATA_PATH = os.path.join(PROJECT_ROOT, 'data', 'processed')
