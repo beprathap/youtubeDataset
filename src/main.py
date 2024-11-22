@@ -37,7 +37,7 @@ def main():
         save_to_csv(df, processed_filename)
         print(f"Processed data saved to {processed_filename}")
     else:
-        print("Failed to retrieve data")
+        print("Failed to retrieve data from the server")
 
 if __name__ == "__main__":
     main()
