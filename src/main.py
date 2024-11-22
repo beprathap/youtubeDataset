@@ -5,7 +5,6 @@ from src.youtube_api import YouTubeAPI
 
 def main():
     # Initialize YouTube API
-    # Initialize YouTube API with OAuth 2.0 credentials
     api = YouTubeAPI(API_KEY)
 
     # Get current timestamp
