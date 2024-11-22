@@ -1,43 +1,13 @@
-import os
 import json
-from datetime import datetime, timedelta
-
-import googleapiclient
-from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 
 class YouTubeAPI:
-    SCOPES = ['https://www.googleapis.com/auth/youtube.readonly',
-              'https://www.googleapis.com/auth/yt-analytics.readonly']
 
-    def __init__(self, api_key, credentials_file):
+    def __init__(self, api_key):
         # Builds a new instance of YouTube.
         self.youtube = build('youtube', 'v3', developerKey=api_key)
-        self.youtube_analytics = None
-        self.authenticate(credentials_file)
-
-    def authenticate(self, credentials_file):
-        # Define the scopes for YouTube Data API and YouTube Analytics API
-        SCOPES = [
-            "https://www.googleapis.com/auth/youtube.readonly",
-            "https://www.googleapis.com/auth/yt-analytics.readonly"
-        ]
-
-        # Check if token.json exists for storing access tokens
-        if os.path.exists('config/token.json'):
-            creds = Credentials.from_authorized_user_file('config/token.json', self.SCOPES)
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file(credentials_file, self.SCOPES)
-            creds = flow.run_local_server(port=0)
-            # Save the credentials for future use
-            with open('config/token.json', 'w') as token:
-                token.write(creds.to_json())
-
-        # Build the YouTube and YouTube Analytics service objects
-        self.youtube_analytics = build('youtubeAnalytics', 'v2', credentials=creds)
 
     def get_channel_stats(self, channel_ids):
         try:
@@ -48,7 +18,7 @@ class YouTubeAPI:
             response = request.execute()
             return response['items']
         except HttpError as e:
-            print(f'An error occured: {e}')
+            print(f'An error occurred: {e}')
             return None
 
     def get_latest_videos(self, channel_id, max_results=10):
@@ -89,49 +59,6 @@ class YouTubeAPI:
             )
             response = request.execute()
             return response['items']
-        except HttpError as e:
-            print(f'An error occurred: {e}')
-            return None
-
-    def get_daily_stats(self, video_ids, days=28):
-        try:
-            end_date = datetime.now().date()
-            start_date = end_date - timedelta(days=days)
-
-            daily_stats = []
-
-            for video_id in video_ids:
-                # Get video details to retrieve channel_id
-                video_details = self.get_video_details([video_id])
-                if not video_details:
-                    continue  # Skip if no details found
-
-                channel_id = video_details[0]['snippet']['channelId']
-
-                # Query the YouTube Analytics API for daily stats
-                request = self.youtube_analytics.reports().query(
-                    ids=f'channel=={channel_id}',
-                    startDate=start_date.isoformat(),
-                    endDate=end_date.isoformat(),
-                    metrics='views,likes,dislikes,comments',
-                    dimensions='day',
-                    filters=f'video=={video_id}'
-                )
-                response = request.execute()
-
-                for row in response.get('rows', []):
-                    date, views, likes, dislikes, comments = row
-                    daily_stats.append({
-                        'date': date,
-                        'channel_id': channel_id,
-                        'video_id': video_id,
-                        'view_count': int(views),
-                        'like_count': int(likes),
-                        'dislike_count': int(dislikes),
-                        'comment_count': int(comments)
-                    })
-
-            return daily_stats
         except HttpError as e:
             print(f'An error occurred: {e}')
             return None
