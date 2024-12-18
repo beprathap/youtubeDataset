@@ -1,0 +1,81 @@
+[2024-11-28T19:55:59.287-0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-28T19:55:59.291-0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_data_pipeline.extract_youtube_data scheduled__2024-11-28T00:00:00+00:00 [queued]>
+[2024-11-28T19:55:59.292-0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_data_pipeline.extract_youtube_data scheduled__2024-11-28T00:00:00+00:00 [queued]>
+[2024-11-28T19:55:59.292-0600] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2024-11-28T19:55:59.296-0600] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_youtube_data> on 2024-11-28 00:00:00+00:00
+[2024-11-28T19:55:59.298-0600] {standard_task_runner.py:72} INFO - Started process 39804 to run task
+[2024-11-28T19:55:59.300-0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'youtube_data_pipeline', 'extract_youtube_data', 'scheduled__2024-11-28T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/youtube_data_pipeline.py', '--cfg-path', '/var/folders/zs/sf3lbkjd0p58grc25nrggk1h0000gn/T/tmpbp94zg2_']
+[2024-11-28T19:55:59.302-0600] {standard_task_runner.py:105} INFO - Job 12: Subtask extract_youtube_data
+[2024-11-28T19:55:59.314-0600] {task_command.py:467} INFO - Running <TaskInstance: youtube_data_pipeline.extract_youtube_data scheduled__2024-11-28T00:00:00+00:00 [running]> on host mac.attlocal.net
+[2024-11-28T19:55:59.333-0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='youtube_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_youtube_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-28T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-28T00:00:00+00:00'
+[2024-11-28T19:55:59.333-0600] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-28T19:55:59.342-0600] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-11-28T19:55:59.458-0600] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/beprathap/airflow/dags/include/airflowYoutube.py", line 19, in airflowYoutube
+    api.save_raw_json(channel_stats, raw_filename)
+  File "/Users/beprathap/airflow/dags/include/youtube_api.py", line 96, in save_raw_json
+    with open(filename, 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/beprathap/airflow/dags/data/raw/channel_stats_20241128_195559.json'
+[2024-11-28T19:55:59.463-0600] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=youtube_data_pipeline, task_id=extract_youtube_data, run_id=scheduled__2024-11-28T00:00:00+00:00, execution_date=20241128T000000, start_date=20241129T015559, end_date=20241129T015559
+[2024-11-28T19:55:59.467-0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-28T19:55:59.468-0600] {standard_task_runner.py:124} ERROR - Failed to execute job 12 for task extract_youtube_data ([Errno 2] No such file or directory: '/Users/beprathap/airflow/dags/data/raw/channel_stats_20241128_195559.json'; 39804)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/beprathap/airflow/dags/include/airflowYoutube.py", line 19, in airflowYoutube
+    api.save_raw_json(channel_stats, raw_filename)
+  File "/Users/beprathap/airflow/dags/include/youtube_api.py", line 96, in save_raw_json
+    with open(filename, 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/beprathap/airflow/dags/data/raw/channel_stats_20241128_195559.json'
+[2024-11-28T19:55:59.478-0600] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-28T19:55:59.483-0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-28T19:55:59.483-0600] {local_task_job_runner.py:245} INFO - ::endgroup::

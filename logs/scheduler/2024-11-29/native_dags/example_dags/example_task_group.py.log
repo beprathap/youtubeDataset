@@ -1,0 +1,21 @@
+[2024-11-28T19:36:58.629-0600] {processor.py:186} INFO - Started process (PID=39269) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-28T19:36:58.630-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-28T19:36:58.630-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:36:58.630-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-28T19:36:58.635-0600] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-28T19:36:58.677-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:36:58.677-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T19:36:58.682-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:36:58.682-0600] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-28T19:36:58.687-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.060 seconds
+[2024-11-28T19:38:33.365-0600] {processor.py:186} INFO - Started process (PID=39453) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-28T19:38:33.366-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-28T19:38:33.366-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:38:33.366-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-28T19:38:33.371-0600] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-28T19:38:33.405-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:38:33.405-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T19:38:33.409-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:38:33.409-0600] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-28T19:38:33.414-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
+[2024-11-28T19:39:35.744-0600] {processor.py:186} INFO - Started process (PID=39584) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-28T19:39:35.745-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-11-28T19:39:35.745-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:39:35.745-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-28T19:39:35.748-0600] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-11-28T19:39:35.783-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:39:35.783-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T19:39:35.786-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:39:35.786-0600] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-11-28T19:39:35.792-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds

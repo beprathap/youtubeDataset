@@ -1,0 +1,96 @@
+[2024-11-28T11:47:16.790-0600] {processor.py:186} INFO - Started process (PID=34448) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:47:16.790-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-28T11:47:16.791-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:47:16.790-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:47:16.798-0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:47:16.829-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:47:16.829-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T11:47:16.838-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:47:16.838-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T11:47:16.842-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:47:16.842-0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-28T11:47:16.847-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.058 seconds
+[2024-11-28T11:48:53.063-0600] {processor.py:186} INFO - Started process (PID=34634) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:48:53.064-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-28T11:48:53.064-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:48:53.064-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:48:53.070-0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:48:53.100-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:48:53.100-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T11:48:53.109-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:48:53.109-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T11:48:53.112-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:48:53.112-0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-28T11:48:53.117-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.056 seconds
+[2024-11-28T11:51:09.693-0600] {processor.py:186} INFO - Started process (PID=34903) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:51:09.694-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-28T11:51:09.695-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:51:09.695-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:51:09.700-0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:51:09.731-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:51:09.731-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T11:51:09.740-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:51:09.740-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T11:51:09.743-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:51:09.743-0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-28T11:51:09.748-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.057 seconds
+[2024-11-28T11:53:20.492-0600] {processor.py:186} INFO - Started process (PID=35158) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:53:20.493-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-28T11:53:20.493-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:53:20.493-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:53:20.500-0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:53:20.533-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:53:20.533-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T11:53:20.542-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:53:20.542-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T11:53:20.546-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:53:20.546-0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-28T11:53:20.551-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.060 seconds
+[2024-11-28T11:55:32.435-0600] {processor.py:186} INFO - Started process (PID=35449) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:55:32.436-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-28T11:55:32.437-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:55:32.437-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:55:32.442-0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:55:32.474-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:55:32.473-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T11:55:32.482-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:55:32.482-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T11:55:32.486-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:55:32.486-0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-28T11:55:32.491-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.057 seconds
+[2024-11-28T11:57:47.298-0600] {processor.py:186} INFO - Started process (PID=35709) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:57:47.299-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-28T11:57:47.299-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:57:47.299-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:57:47.305-0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T11:57:47.337-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:57:47.336-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T11:57:47.345-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:57:47.345-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T11:57:47.349-0600] {logging_mixin.py:190} INFO - [2024-11-28T11:57:47.349-0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-28T11:57:47.354-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.058 seconds
+[2024-11-28T12:00:03.086-0600] {processor.py:186} INFO - Started process (PID=35955) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:00:03.086-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-28T12:00:03.086-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:00:03.086-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:00:03.092-0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:00:03.124-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:00:03.124-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T12:00:03.133-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:00:03.133-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T12:00:03.136-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:00:03.136-0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-28T12:00:03.141-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.057 seconds
+[2024-11-28T12:02:17.828-0600] {processor.py:186} INFO - Started process (PID=36210) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:02:17.829-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-28T12:02:17.830-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:02:17.830-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:02:17.837-0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:02:17.869-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:02:17.869-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T12:02:17.878-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:02:17.878-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T12:02:17.882-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:02:17.882-0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-28T12:02:17.887-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.060 seconds
+[2024-11-28T12:04:31.854-0600] {processor.py:186} INFO - Started process (PID=36462) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:04:31.854-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-28T12:04:31.855-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:04:31.855-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:04:31.861-0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:04:31.894-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:04:31.894-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T12:04:31.904-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:04:31.903-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T12:04:31.907-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:04:31.907-0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-28T12:04:31.912-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.060 seconds
+[2024-11-28T12:06:39.602-0600] {processor.py:186} INFO - Started process (PID=36709) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:06:39.602-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-28T12:06:39.602-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:06:39.602-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:06:39.607-0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:06:39.638-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:06:39.638-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T12:06:39.646-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:06:39.646-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T12:06:39.650-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:06:39.650-0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-28T12:06:39.655-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.055 seconds
+[2024-11-28T12:08:53.099-0600] {processor.py:186} INFO - Started process (PID=36951) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:08:53.099-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-28T12:08:53.100-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:08:53.099-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:08:53.106-0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:08:53.140-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:08:53.140-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T12:08:53.150-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:08:53.150-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T12:08:53.154-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:08:53.154-0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-28T12:08:53.160-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.063 seconds
+[2024-11-28T12:11:11.579-0600] {processor.py:186} INFO - Started process (PID=37234) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:11:11.580-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-28T12:11:11.580-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:11:11.580-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:11:11.585-0600] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-28T12:11:11.618-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:11:11.618-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T12:11:11.627-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:11:11.627-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T12:11:11.631-0600] {logging_mixin.py:190} INFO - [2024-11-28T12:11:11.631-0600] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-28T12:11:11.636-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.058 seconds

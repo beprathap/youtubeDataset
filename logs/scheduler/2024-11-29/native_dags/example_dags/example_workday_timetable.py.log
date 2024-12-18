@@ -1,0 +1,138 @@
+[2024-11-28T19:36:50.943-0600] {processor.py:186} INFO - Started process (PID=39251) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-28T19:36:50.944-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2024-11-28T19:36:50.944-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:36:50.944-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-28T19:36:50.946-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:36:50.946-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T19:36:50.948-0600] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-28T19:36:50.977-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:36:50.977-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T19:36:50.983-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:36:50.983-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T19:36:50.989-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:36:50.989-0600] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-11-28T19:36:50.994-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py took 0.052 seconds
+[2024-11-28T19:38:25.629-0600] {processor.py:186} INFO - Started process (PID=39438) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-28T19:38:25.630-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2024-11-28T19:38:25.630-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:38:25.630-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-28T19:38:25.632-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:38:25.632-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T19:38:25.634-0600] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-28T19:38:25.669-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:38:25.666-0600] {dagbag.py:698} ERROR - Failed to write serialized DAG: /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 1647, in serialize_dag
+    serialized_dag = cls.serialize_to_json(dag, cls._decorated_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 612, in serialize_to_json
+    serialized_object[key] = encode_timetable(value)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 322, in encode_timetable
+    raise _TimetableNotRegistered(importable_string)
+airflow.serialization.serialized_objects._TimetableNotRegistered: Timetable class 'airflow.example_dags.plugins.workday.AfterWorkdayTimetable' is not registered or you have a top level database access that disrupted the session. Please check the airflow best practices documentation.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/serialized_dag.py", line 169, in write_dag
+    new_serialized_dag = cls(dag, processor_subdir)
+  File "<string>", line 4, in __init__
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/state.py", line 482, in _initialize_instance
+    manager.dispatch.init_failure(self, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/serialized_dag.py", line 116, in __init__
+    dag_data = SerializedDAG.to_dict(dag)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 1773, in to_dict
+    json_dict = {"__version": cls.SERIALIZER_VERSION, "dag": cls.serialize_dag(var)}
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 1682, in serialize_dag
+    raise SerializationError(f"Failed to serialize DAG {dag.dag_id!r}: {e}")
+airflow.exceptions.SerializationError: Failed to serialize DAG 'example_workday_timetable': Timetable class 'airflow.example_dags.plugins.workday.AfterWorkdayTimetable' is not registered or you have a top level database access that disrupted the session. Please check the airflow best practices documentation.
+[2024-11-28T19:38:25.669-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:38:25.669-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T19:38:25.676-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:38:25.675-0600] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-11-28T19:38:25.683-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py took 0.055 seconds
+[2024-11-28T19:39:27.491-0600] {processor.py:186} INFO - Started process (PID=39569) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-28T19:39:27.491-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2024-11-28T19:39:27.492-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:39:27.491-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-28T19:39:27.493-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:39:27.493-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T19:39:27.495-0600] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-28T19:39:27.531-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:39:27.528-0600] {dagbag.py:698} ERROR - Failed to write serialized DAG: /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 1647, in serialize_dag
+    serialized_dag = cls.serialize_to_json(dag, cls._decorated_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 612, in serialize_to_json
+    serialized_object[key] = encode_timetable(value)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 322, in encode_timetable
+    raise _TimetableNotRegistered(importable_string)
+airflow.serialization.serialized_objects._TimetableNotRegistered: Timetable class 'airflow.example_dags.plugins.workday.AfterWorkdayTimetable' is not registered or you have a top level database access that disrupted the session. Please check the airflow best practices documentation.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/serialized_dag.py", line 169, in write_dag
+    new_serialized_dag = cls(dag, processor_subdir)
+  File "<string>", line 4, in __init__
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/state.py", line 482, in _initialize_instance
+    manager.dispatch.init_failure(self, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/serialized_dag.py", line 116, in __init__
+    dag_data = SerializedDAG.to_dict(dag)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 1773, in to_dict
+    json_dict = {"__version": cls.SERIALIZER_VERSION, "dag": cls.serialize_dag(var)}
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 1682, in serialize_dag
+    raise SerializationError(f"Failed to serialize DAG {dag.dag_id!r}: {e}")
+airflow.exceptions.SerializationError: Failed to serialize DAG 'example_workday_timetable': Timetable class 'airflow.example_dags.plugins.workday.AfterWorkdayTimetable' is not registered or you have a top level database access that disrupted the session. Please check the airflow best practices documentation.
+[2024-11-28T19:39:27.532-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:39:27.531-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T19:39:27.538-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:39:27.538-0600] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-11-28T19:39:27.545-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py took 0.056 seconds
+[2024-11-28T19:40:30.498-0600] {processor.py:186} INFO - Started process (PID=39690) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-28T19:40:30.498-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2024-11-28T19:40:30.499-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:40:30.499-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-28T19:40:30.500-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:40:30.500-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T19:40:30.502-0600] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-11-28T19:40:30.542-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:40:30.538-0600] {dagbag.py:698} ERROR - Failed to write serialized DAG: /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 1647, in serialize_dag
+    serialized_dag = cls.serialize_to_json(dag, cls._decorated_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 612, in serialize_to_json
+    serialized_object[key] = encode_timetable(value)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 322, in encode_timetable
+    raise _TimetableNotRegistered(importable_string)
+airflow.serialization.serialized_objects._TimetableNotRegistered: Timetable class 'airflow.example_dags.plugins.workday.AfterWorkdayTimetable' is not registered or you have a top level database access that disrupted the session. Please check the airflow best practices documentation.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/serialized_dag.py", line 169, in write_dag
+    new_serialized_dag = cls(dag, processor_subdir)
+  File "<string>", line 4, in __init__
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/state.py", line 482, in _initialize_instance
+    manager.dispatch.init_failure(self, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/serialized_dag.py", line 116, in __init__
+    dag_data = SerializedDAG.to_dict(dag)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 1773, in to_dict
+    json_dict = {"__version": cls.SERIALIZER_VERSION, "dag": cls.serialize_dag(var)}
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/serialization/serialized_objects.py", line 1682, in serialize_dag
+    raise SerializationError(f"Failed to serialize DAG {dag.dag_id!r}: {e}")
+airflow.exceptions.SerializationError: Failed to serialize DAG 'example_workday_timetable': Timetable class 'airflow.example_dags.plugins.workday.AfterWorkdayTimetable' is not registered or you have a top level database access that disrupted the session. Please check the airflow best practices documentation.
+[2024-11-28T19:40:30.542-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:40:30.542-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T19:40:30.548-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:40:30.548-0600] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-11-28T19:40:30.557-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py took 0.060 seconds

@@ -1,0 +1,14 @@
+[2024-11-28T19:38:01.253-0600] {processor.py:186} INFO - Started process (PID=39391) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-28T19:38:01.253-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-28T19:38:01.254-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:38:01.254-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-28T19:38:01.271-0600] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-28T19:38:01.346-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:38:01.346-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T19:38:01.350-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:38:01.350-0600] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-28T19:38:01.355-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_bash_decorator.py took 0.103 seconds
+[2024-11-28T19:40:06.176-0600] {processor.py:186} INFO - Started process (PID=39644) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-28T19:40:06.177-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-28T19:40:06.177-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:40:06.177-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-28T19:40:06.192-0600] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-28T19:40:06.267-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:40:06.267-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T19:40:06.271-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:40:06.271-0600] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-28T19:40:06.276-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_bash_decorator.py took 0.101 seconds

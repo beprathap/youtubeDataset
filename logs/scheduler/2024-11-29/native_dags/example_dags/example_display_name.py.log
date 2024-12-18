@@ -1,0 +1,14 @@
+[2024-11-28T19:37:41.448-0600] {processor.py:186} INFO - Started process (PID=39352) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_display_name.py
+[2024-11-28T19:37:41.448-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-11-28T19:37:41.449-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:37:41.449-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_display_name.py
+[2024-11-28T19:37:41.460-0600] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_display_name.py
+[2024-11-28T19:37:41.492-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:37:41.492-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T19:37:41.495-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:37:41.495-0600] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-11-28T19:37:41.500-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_display_name.py took 0.054 seconds
+[2024-11-28T19:39:45.948-0600] {processor.py:186} INFO - Started process (PID=39604) to work on /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_display_name.py
+[2024-11-28T19:39:45.949-0600] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-11-28T19:39:45.950-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:39:45.950-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_display_name.py
+[2024-11-28T19:39:45.961-0600] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_display_name.py
+[2024-11-28T19:39:45.993-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:39:45.993-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T19:39:45.996-0600] {logging_mixin.py:190} INFO - [2024-11-28T19:39:45.996-0600] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-11-28T19:39:46.002-0600] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/example_dags/example_display_name.py took 0.054 seconds

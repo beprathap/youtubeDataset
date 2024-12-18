@@ -1,0 +1,146 @@
+[2024-12-18T11:38:36.666-0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-18T11:38:36.669-0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_data_pipeline.extract_youtube_data scheduled__2024-12-17T00:00:00+00:00 [queued]>
+[2024-12-18T11:38:36.671-0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_data_pipeline.extract_youtube_data scheduled__2024-12-17T00:00:00+00:00 [queued]>
+[2024-12-18T11:38:36.671-0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-18T11:38:36.674-0600] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_youtube_data> on 2024-12-17 00:00:00+00:00
+[2024-12-18T11:38:36.676-0600] {standard_task_runner.py:72} INFO - Started process 681 to run task
+[2024-12-18T11:38:36.680-0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'youtube_data_pipeline', 'extract_youtube_data', 'scheduled__2024-12-17T00:00:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/youtube_data_pipeline.py', '--cfg-path', '/var/folders/zs/sf3lbkjd0p58grc25nrggk1h0000gn/T/tmpkccccei0']
+[2024-12-18T11:38:36.682-0600] {standard_task_runner.py:105} INFO - Job 29: Subtask extract_youtube_data
+[2024-12-18T11:38:36.697-0600] {task_command.py:467} INFO - Running <TaskInstance: youtube_data_pipeline.extract_youtube_data scheduled__2024-12-17T00:00:00+00:00 [running]> on host mac.attlocal.net
+[2024-12-18T11:38:36.722-0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='youtube_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_youtube_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-17T00:00:00+00:00'
+[2024-12-18T11:38:36.723-0600] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-18T11:38:36.732-0600] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-12-18T11:38:36.854-0600] {logging_mixin.py:190} INFO - Raw data saved to /Users/beprathap/airflow/dags/data/raw/channel_stats_20241218_113836.json
+[2024-12-18T11:38:37.405-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UClFSU9_bUb4Rc6OYfTt5SPw
+[2024-12-18T11:38:37.734-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCX6OQ3DkcsbYNE6H8uQQuVA
+[2024-12-18T11:38:38.055-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCsooa4yRKGN_zEE8iknghZA
+[2024-12-18T11:38:38.382-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCh9IfI45mmk59eDvSWtuuhQ
+[2024-12-18T11:38:38.695-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCBJycsmduvYEL83R_U4JriQ
+[2024-12-18T11:38:39.025-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UC4rlAVgAK0SGk-yTfe48Qpw
+[2024-12-18T11:38:39.318-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UC0v-tlzsn0QZwJnkiaUSJVQ
+[2024-12-18T11:38:39.599-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCzQUP1qoWDoEbmsQxvdjxgQ
+[2024-12-18T11:38:39.892-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCoYATiiqNT7csPFqtWWfc5w
+[2024-12-18T11:38:40.227-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UC-lHJZR3Gqxm24_Vd_AJ5Yw
+[2024-12-18T11:38:40.649-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCq-Fj5jknLsUf-MWSy4_brA
+[2024-12-18T11:38:40.811-0600] {logging_mixin.py:190} INFO - Retrieved comments for video fguHGQolSsM
+[2024-12-18T11:38:40.963-0600] {logging_mixin.py:190} INFO - Retrieved comments for video WzVkcqUCNeo
+[2024-12-18T11:38:41.147-0600] {logging_mixin.py:190} INFO - Retrieved comments for video JP_-WUfaGco
+[2024-12-18T11:38:41.395-0600] {logging_mixin.py:190} INFO - Retrieved comments for video brYEgU782YU
+[2024-12-18T11:38:41.607-0600] {logging_mixin.py:190} INFO - Retrieved comments for video woTw_7sQsrk
+[2024-12-18T11:38:41.831-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 3wsfezNdgp4
+[2024-12-18T11:38:41.986-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 4UfPXD8m6Dk
+[2024-12-18T11:38:42.301-0600] {logging_mixin.py:190} INFO - Retrieved comments for video eUOrc0_nEJE
+[2024-12-18T11:38:42.463-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 2gccPFeMJiE
+[2024-12-18T11:38:42.670-0600] {logging_mixin.py:190} INFO - Retrieved comments for video ArjKgfdOOjI
+[2024-12-18T11:38:42.821-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Fa2fBRhy1jM
+[2024-12-18T11:38:42.995-0600] {logging_mixin.py:190} INFO - Retrieved comments for video DBPYB8WkkDc
+[2024-12-18T11:38:43.167-0600] {logging_mixin.py:190} INFO - Retrieved comments for video zvBXpoBegwE
+[2024-12-18T11:38:43.326-0600] {logging_mixin.py:190} INFO - Retrieved comments for video SWc8fI_9iqA
+[2024-12-18T11:38:43.502-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 0BjlBnfHcHM
+[2024-12-18T11:38:43.734-0600] {logging_mixin.py:190} INFO - Retrieved comments for video HcL1EQ5qD_g
+[2024-12-18T11:38:43.886-0600] {logging_mixin.py:190} INFO - Retrieved comments for video dc089EZRGcg
+[2024-12-18T11:38:44.070-0600] {logging_mixin.py:190} INFO - Retrieved comments for video I9mw5UlDyPI
+[2024-12-18T11:38:44.221-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Xj0Jtjg3lHQ
+[2024-12-18T11:38:44.367-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 9UtcHPCEBgg
+[2024-12-18T11:38:44.637-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Wb0UgdRFj2A
+[2024-12-18T11:38:44.787-0600] {logging_mixin.py:190} INFO - Retrieved comments for video awhOrqGb-TU
+[2024-12-18T11:38:45.059-0600] {logging_mixin.py:190} INFO - Retrieved comments for video WJ-XXQCcXik
+[2024-12-18T11:38:45.241-0600] {logging_mixin.py:190} INFO - Retrieved comments for video lq8TNKZVEWs
+[2024-12-18T11:38:45.379-0600] {logging_mixin.py:190} INFO - Retrieved comments for video SNe07KhTEyM
+[2024-12-18T11:38:45.610-0600] {logging_mixin.py:190} INFO - Retrieved comments for video wcR815SfWOU
+[2024-12-18T11:38:45.805-0600] {logging_mixin.py:190} INFO - Retrieved comments for video qsc3YZ2S924
+[2024-12-18T11:38:46.081-0600] {logging_mixin.py:190} INFO - Retrieved comments for video IdWXT391FJE
+[2024-12-18T11:38:46.312-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Bgc1C1xI2dA
+[2024-12-18T11:38:46.522-0600] {logging_mixin.py:190} INFO - Retrieved comments for video FZc-Y9gqjHI
+[2024-12-18T11:38:46.657-0600] {logging_mixin.py:190} INFO - Retrieved comments for video wmL8VViaIwU
+[2024-12-18T11:38:46.851-0600] {logging_mixin.py:190} INFO - Retrieved comments for video mviuDMPotrI
+[2024-12-18T11:38:47.086-0600] {logging_mixin.py:190} INFO - Retrieved comments for video wXXqaKwsJPA
+[2024-12-18T11:38:47.313-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 3FgwfKSniC0
+[2024-12-18T11:38:47.562-0600] {logging_mixin.py:190} INFO - Retrieved comments for video J4plrANz61E
+[2024-12-18T11:38:47.777-0600] {logging_mixin.py:190} INFO - Retrieved comments for video P8o9TVzqfWk
+[2024-12-18T11:38:47.998-0600] {logging_mixin.py:190} INFO - Retrieved comments for video XyZIZZ-_QIk
+[2024-12-18T11:38:48.181-0600] {logging_mixin.py:190} INFO - Retrieved comments for video txLDfMzL3kE
+[2024-12-18T11:38:48.403-0600] {logging_mixin.py:190} INFO - Retrieved comments for video cPpzfmX8b9c
+[2024-12-18T11:38:48.573-0600] {logging_mixin.py:190} INFO - Retrieved comments for video QROPM4sCpnI
+[2024-12-18T11:38:48.696-0600] {logging_mixin.py:190} INFO - Retrieved comments for video OY2x0TyKzIQ
+[2024-12-18T11:38:48.888-0600] {logging_mixin.py:190} INFO - Retrieved comments for video l3_nECzo_EA
+[2024-12-18T11:38:49.165-0600] {logging_mixin.py:190} INFO - Retrieved comments for video fgm5uZaS3-E
+[2024-12-18T11:38:49.341-0600] {logging_mixin.py:190} INFO - Retrieved comments for video qkYoBNdcXBU
+[2024-12-18T11:38:49.579-0600] {logging_mixin.py:190} INFO - Retrieved comments for video kkX8_nbBqBQ
+[2024-12-18T11:38:49.803-0600] {logging_mixin.py:190} INFO - Retrieved comments for video -T0MGehwWvE
+[2024-12-18T11:38:50.188-0600] {logging_mixin.py:190} INFO - Retrieved comments for video HN-WH7C4K0Q
+[2024-12-18T11:38:50.474-0600] {logging_mixin.py:190} INFO - Retrieved comments for video VdOlqcg9uMQ
+[2024-12-18T11:38:50.720-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 4MbshUkkA38
+[2024-12-18T11:38:50.944-0600] {logging_mixin.py:190} INFO - Retrieved comments for video jD9n01Mck0Q
+[2024-12-18T11:38:51.049-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 2kZXHtbfA30
+[2024-12-18T11:38:51.154-0600] {http.py:140} WARNING - Encountered 403 Forbidden with reason "commentsDisabled"
+[2024-12-18T11:38:51.160-0600] {logging_mixin.py:190} INFO - An error occurred: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=HV7Tn-QlkVU&maxResults=50&key=AIzaSyAiAdnosSHn5S28NASaJGxEfgTMjB5gebw&alt=json returned "The video identified by the <code><a href="/youtube/v3/docs/commentThreads/list#videoId">videoId</a></code> parameter has disabled comments.". Details: "[{'message': 'The video identified by the <code><a href="/youtube/v3/docs/commentThreads/list#videoId">videoId</a></code> parameter has disabled comments.', 'domain': 'youtube.commentThread', 'reason': 'commentsDisabled', 'location': 'videoId', 'locationType': 'parameter'}]">
+[2024-12-18T11:38:51.162-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video HV7Tn-QlkVU
+[2024-12-18T11:38:51.280-0600] {logging_mixin.py:190} INFO - Retrieved comments for video PyPYPDWZ7JM
+[2024-12-18T11:38:51.383-0600] {logging_mixin.py:190} INFO - Retrieved comments for video vGs9xfZRIG0
+[2024-12-18T11:38:51.440-0600] {http.py:140} WARNING - Encountered 403 Forbidden with reason "commentsDisabled"
+[2024-12-18T11:38:51.442-0600] {logging_mixin.py:190} INFO - An error occurred: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=3KtvQiLh3ew&maxResults=50&key=AIzaSyAiAdnosSHn5S28NASaJGxEfgTMjB5gebw&alt=json returned "The video identified by the <code><a href="/youtube/v3/docs/commentThreads/list#videoId">videoId</a></code> parameter has disabled comments.". Details: "[{'message': 'The video identified by the <code><a href="/youtube/v3/docs/commentThreads/list#videoId">videoId</a></code> parameter has disabled comments.', 'domain': 'youtube.commentThread', 'reason': 'commentsDisabled', 'location': 'videoId', 'locationType': 'parameter'}]">
+[2024-12-18T11:38:51.445-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video 3KtvQiLh3ew
+[2024-12-18T11:38:51.557-0600] {logging_mixin.py:190} INFO - Retrieved comments for video E3QNKuwm3iE
+[2024-12-18T11:38:51.718-0600] {logging_mixin.py:190} INFO - Retrieved comments for video v9FpdOM8ooQ
+[2024-12-18T11:38:51.846-0600] {logging_mixin.py:190} INFO - Retrieved comments for video hj7IbZFO2T4
+[2024-12-18T11:38:52.015-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 6zFh_Isrfgs
+[2024-12-18T11:38:52.133-0600] {logging_mixin.py:190} INFO - Retrieved comments for video oIpUFh_0UNM
+[2024-12-18T11:38:52.282-0600] {logging_mixin.py:190} INFO - Retrieved comments for video R-JCoffbk3Y
+[2024-12-18T11:38:52.444-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 5ZnS33Z-oHM
+[2024-12-18T11:38:52.593-0600] {logging_mixin.py:190} INFO - Retrieved comments for video VW6_hW_ZNhM
+[2024-12-18T11:38:52.716-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 3B0rYACI9wg
+[2024-12-18T11:38:52.943-0600] {logging_mixin.py:190} INFO - Retrieved comments for video B3O3DVkKpFo
+[2024-12-18T11:38:53.176-0600] {logging_mixin.py:190} INFO - Retrieved comments for video c2bO4AyCFQs
+[2024-12-18T11:38:53.399-0600] {logging_mixin.py:190} INFO - Retrieved comments for video oUg_hgL--tE
+[2024-12-18T11:38:53.669-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 8cqEPrgy_Mc
+[2024-12-18T11:38:53.942-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 4jE-k7MC2ZE
+[2024-12-18T11:38:54.146-0600] {logging_mixin.py:190} INFO - Retrieved comments for video eb3M5LFknzY
+[2024-12-18T11:38:54.277-0600] {logging_mixin.py:190} INFO - Retrieved comments for video P4t8UgcjKfM
+[2024-12-18T11:38:54.436-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 7_giGqDqT4Y
+[2024-12-18T11:38:54.573-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 8a0_KkmRSe0
+[2024-12-18T11:38:54.663-0600] {logging_mixin.py:190} INFO - Retrieved comments for video _UmIlHby5h8
+[2024-12-18T11:38:54.770-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 0u5vPHuAXXg
+[2024-12-18T11:38:54.905-0600] {logging_mixin.py:190} INFO - Retrieved comments for video E0mudvCm-bo
+[2024-12-18T11:38:55.109-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 8E1hrK77GLI
+[2024-12-18T11:38:55.236-0600] {logging_mixin.py:190} INFO - Retrieved comments for video rrJhQpvlkLA
+[2024-12-18T11:38:55.371-0600] {logging_mixin.py:190} INFO - Retrieved comments for video dpx_2eUyvqc
+[2024-12-18T11:38:55.512-0600] {logging_mixin.py:190} INFO - Retrieved comments for video ye8MOfxD5nU
+[2024-12-18T11:38:55.576-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video -pjDRHOZ-8o
+[2024-12-18T11:38:55.674-0600] {logging_mixin.py:190} INFO - Retrieved comments for video GvFdbbAqYM4
+[2024-12-18T11:38:55.771-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video nhI2PpgZacI
+[2024-12-18T11:38:55.884-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video qILjy2BRdJo
+[2024-12-18T11:38:55.975-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video 4-pSeKkXraI
+[2024-12-18T11:38:56.068-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 5DoQD6LkdGU
+[2024-12-18T11:38:56.155-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video qGYwDre99MA
+[2024-12-18T11:38:56.274-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video 7geKKEdDguc
+[2024-12-18T11:38:56.367-0600] {logging_mixin.py:190} INFO - Retrieved comments for video hVI8OK4kNQQ
+[2024-12-18T11:38:56.453-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video 6n9MoZ3SR-Y
+[2024-12-18T11:38:56.572-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Jzk5gbWQaT8
+[2024-12-18T11:38:56.796-0600] {logging_mixin.py:190} INFO - Retrieved comments for video DEgt25yYidY
+[2024-12-18T11:38:56.982-0600] {logging_mixin.py:190} INFO - Retrieved comments for video n2nTd1VbsLM
+[2024-12-18T11:38:57.213-0600] {logging_mixin.py:190} INFO - Retrieved comments for video vDZHCYCd5Bo
+[2024-12-18T11:38:57.391-0600] {logging_mixin.py:190} INFO - Retrieved comments for video D0-IrQY4ix8
+[2024-12-18T11:38:57.610-0600] {logging_mixin.py:190} INFO - Retrieved comments for video yNsIh0ciYiI
+[2024-12-18T11:38:57.790-0600] {logging_mixin.py:190} INFO - Retrieved comments for video F-yEoHL7MYY
+[2024-12-18T11:38:57.963-0600] {logging_mixin.py:190} INFO - Retrieved comments for video -fWXLAkHmxA
+[2024-12-18T11:38:58.114-0600] {logging_mixin.py:190} INFO - Retrieved comments for video JIz0-6_mPIE
+[2024-12-18T11:38:58.323-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 73XDeGdl94w
+[2024-12-18T11:38:58.475-0600] {logging_mixin.py:190} INFO - Retrieved comments for video rFq6UrZVliI
+[2024-12-18T11:38:58.627-0600] {logging_mixin.py:190} INFO - Retrieved comments for video DgJrzIZI19A
+[2024-12-18T11:38:58.715-0600] {logging_mixin.py:190} INFO - Retrieved comments for video umQcWvmrNeU
+[2024-12-18T11:38:58.824-0600] {logging_mixin.py:190} INFO - Retrieved comments for video X7qE4Holi1I
+[2024-12-18T11:38:59.055-0600] {logging_mixin.py:190} INFO - Retrieved comments for video UGb-ZH23di8
+[2024-12-18T11:38:59.176-0600] {logging_mixin.py:190} INFO - Retrieved comments for video z8I1P12S-gw
+[2024-12-18T11:38:59.293-0600] {logging_mixin.py:190} INFO - Retrieved comments for video eeqVwRe15hI
+[2024-12-18T11:38:59.574-0600] {logging_mixin.py:190} INFO - Retrieved comments for video oCA9kPKkgmw
+[2024-12-18T11:38:59.722-0600] {logging_mixin.py:190} INFO - Retrieved comments for video ckMfUQU4as8
+[2024-12-18T11:38:59.946-0600] {logging_mixin.py:190} INFO - Retrieved comments for video sZqotj-b17c
+[2024-12-18T11:39:00.007-0600] {logging_mixin.py:190} INFO - Video comments saved to /Users/beprathap/airflow/dags/data/raw/video_comments_20241218_113836.json
+[2024-12-18T11:39:11.027-0600] {logging_mixin.py:190} INFO - Video categories saved to /Users/beprathap/airflow/dags/data/raw/video_categories_20241218_113836.json
+[2024-12-18T11:39:11.045-0600] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-18T11:39:11.059-0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-18T11:39:11.060-0600] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=youtube_data_pipeline, task_id=extract_youtube_data, run_id=scheduled__2024-12-17T00:00:00+00:00, execution_date=20241217T000000, start_date=20241218T173836, end_date=20241218T173911
+[2024-12-18T11:39:11.108-0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-18T11:39:11.121-0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-18T11:39:11.121-0600] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,385 @@
+[2024-12-18T11:38:35.552-0600] {processor.py:186} INFO - Started process (PID=674) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:38:35.553-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:38:35.554-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:38:35.554-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:38:35.616-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:38:35.706-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:38:35.706-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:38:35.714-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:38:35.714-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-17 00:00:00+00:00, run_after=2024-12-18 00:00:00+00:00
+[2024-12-18T11:38:35.720-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.169 seconds
+[2024-12-18T11:39:12.249-0600] {processor.py:186} INFO - Started process (PID=810) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:39:12.251-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:39:12.251-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:39:12.251-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:39:12.305-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:39:12.341-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:39:12.341-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:39:12.348-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:39:12.348-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:39:12.353-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.105 seconds
+[2024-12-18T11:39:43.535-0600] {processor.py:186} INFO - Started process (PID=834) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:39:43.537-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:39:43.537-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:39:43.537-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:39:43.595-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:39:43.631-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:39:43.631-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:39:43.638-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:39:43.638-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:39:43.643-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.110 seconds
+[2024-12-18T11:42:02.284-0600] {processor.py:186} INFO - Started process (PID=921) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:42:02.285-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:42:02.285-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:42:02.285-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:42:02.338-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:42:02.372-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:42:02.372-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:42:02.380-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:42:02.380-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:42:02.384-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.102 seconds
+[2024-12-18T11:42:34.074-0600] {processor.py:186} INFO - Started process (PID=926) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:42:34.076-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:42:34.076-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:42:34.076-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:42:34.127-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:42:34.161-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:42:34.161-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:42:34.169-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:42:34.169-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:42:34.174-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.101 seconds
+[2024-12-18T11:43:05.380-0600] {processor.py:186} INFO - Started process (PID=942) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:43:05.381-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:43:05.381-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:43:05.381-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:43:05.437-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:43:05.471-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:43:05.471-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:43:05.477-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:43:05.477-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:43:05.484-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.106 seconds
+[2024-12-18T11:43:36.698-0600] {processor.py:186} INFO - Started process (PID=964) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:43:36.700-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:43:36.700-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:43:36.700-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:43:36.751-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:43:36.786-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:43:36.786-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:43:36.792-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:43:36.792-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:43:36.798-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.101 seconds
+[2024-12-18T11:44:07.958-0600] {processor.py:186} INFO - Started process (PID=975) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:44:07.959-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:44:07.959-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:44:07.959-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:44:08.020-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:44:08.061-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:44:08.061-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:44:08.069-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:44:08.068-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:44:08.077-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.120 seconds
+[2024-12-18T11:44:39.286-0600] {processor.py:186} INFO - Started process (PID=993) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:44:39.287-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:44:39.287-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:44:39.287-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:44:39.340-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:44:39.374-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:44:39.374-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:44:39.381-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:44:39.380-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:44:39.386-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.102 seconds
+[2024-12-18T11:45:10.557-0600] {processor.py:186} INFO - Started process (PID=1003) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:45:10.559-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:45:10.559-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:45:10.559-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:45:10.618-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:45:10.652-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:45:10.652-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:45:10.658-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:45:10.658-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:45:10.664-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.109 seconds
+[2024-12-18T11:45:21.568-0600] {processor.py:186} INFO - Started process (PID=1028) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:45:21.569-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:45:21.569-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:45:21.569-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:45:21.618-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:45:21.656-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:45:21.656-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:45:21.662-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:45:21.662-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:45:21.667-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.101 seconds
+[2024-12-18T11:45:53.277-0600] {processor.py:186} INFO - Started process (PID=1042) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:45:53.278-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:45:53.279-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:45:53.279-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:45:53.335-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:45:53.370-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:45:53.370-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:45:53.376-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:45:53.376-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:45:53.381-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.106 seconds
+[2024-12-18T11:46:07.341-0600] {processor.py:186} INFO - Started process (PID=1049) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:46:07.342-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:46:07.342-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:46:07.342-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:46:07.393-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:46:07.427-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:46:07.427-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:46:07.436-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:46:07.435-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:46:07.442-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.103 seconds
+[2024-12-18T11:46:38.722-0600] {processor.py:186} INFO - Started process (PID=1053) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:46:38.724-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:46:38.724-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:46:38.724-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:46:38.800-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:46:38.841-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:46:38.840-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:46:38.849-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:46:38.849-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:46:38.855-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.135 seconds
+[2024-12-18T11:47:09.901-0600] {processor.py:186} INFO - Started process (PID=1061) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:47:09.903-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:47:09.903-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:47:09.903-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:47:09.959-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:47:09.996-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:47:09.996-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:47:10.003-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:47:10.003-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:47:10.009-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.109 seconds
+[2024-12-18T11:47:41.315-0600] {processor.py:186} INFO - Started process (PID=1065) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:47:41.316-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:47:41.316-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:47:41.316-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:47:41.372-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:47:41.405-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:47:41.405-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:47:41.412-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:47:41.411-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:47:41.417-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.104 seconds
+[2024-12-18T11:48:12.505-0600] {processor.py:186} INFO - Started process (PID=1071) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:48:12.506-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:48:12.507-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:48:12.507-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:48:12.558-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:48:12.592-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:48:12.591-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:48:12.598-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:48:12.598-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:48:12.603-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.100 seconds
+[2024-12-18T11:52:58.390-0600] {processor.py:186} INFO - Started process (PID=1207) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:52:58.390-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:52:58.391-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:52:58.391-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:52:58.444-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:52:58.481-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:52:58.481-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:52:58.489-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:52:58.489-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:52:58.494-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.106 seconds
+[2024-12-18T11:53:30.033-0600] {processor.py:186} INFO - Started process (PID=1222) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:53:30.035-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:53:30.035-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:53:30.035-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:53:30.086-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:53:30.121-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:53:30.120-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:53:30.127-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:53:30.127-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:53:30.133-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.101 seconds
+[2024-12-18T11:54:01.247-0600] {processor.py:186} INFO - Started process (PID=1232) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:54:01.248-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:54:01.249-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:54:01.249-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:54:01.300-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:54:01.334-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:54:01.334-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:54:01.340-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:54:01.340-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:54:01.346-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.101 seconds
+[2024-12-18T11:54:58.526-0600] {processor.py:186} INFO - Started process (PID=1279) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:54:58.526-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:54:58.527-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:54:58.527-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:54:58.582-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:54:58.619-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:54:58.618-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:54:58.626-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:54:58.626-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:54:58.631-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.106 seconds
+[2024-12-18T11:55:30.139-0600] {processor.py:186} INFO - Started process (PID=1290) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:55:30.141-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T11:55:30.141-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:55:30.141-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:55:30.192-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T11:55:30.225-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:55:30.225-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T11:55:30.233-0600] {logging_mixin.py:190} INFO - [2024-12-18T11:55:30.233-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T11:55:30.238-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.100 seconds
+[2024-12-18T12:02:13.420-0600] {processor.py:186} INFO - Started process (PID=1447) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:02:13.420-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:02:13.421-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:02:13.421-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:02:13.475-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:02:13.513-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:02:13.513-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:02:13.520-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:02:13.520-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:02:13.525-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.107 seconds
+[2024-12-18T12:02:45.332-0600] {processor.py:186} INFO - Started process (PID=1451) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:02:45.335-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:02:45.335-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:02:45.335-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:02:45.388-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:02:45.425-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:02:45.424-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:02:45.432-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:02:45.432-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:02:45.438-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.108 seconds
+[2024-12-18T12:03:16.407-0600] {processor.py:186} INFO - Started process (PID=1456) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:03:16.408-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:03:16.409-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:03:16.409-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:03:16.465-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:03:16.500-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:03:16.500-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:03:16.506-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:03:16.506-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:03:16.513-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.107 seconds
+[2024-12-18T12:03:47.685-0600] {processor.py:186} INFO - Started process (PID=1478) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:03:47.686-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:03:47.687-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:03:47.687-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:03:47.738-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:03:47.773-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:03:47.773-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:03:47.779-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:03:47.779-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:03:47.785-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.102 seconds
+[2024-12-18T12:05:24.914-0600] {processor.py:186} INFO - Started process (PID=1535) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:05:24.915-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:05:24.915-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:05:24.915-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:05:24.967-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:05:25.003-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:05:25.003-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:05:25.011-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:05:25.011-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:05:25.016-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.103 seconds
+[2024-12-18T12:05:56.577-0600] {processor.py:186} INFO - Started process (PID=1550) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:05:56.578-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:05:56.578-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:05:56.578-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:05:56.629-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:05:56.663-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:05:56.663-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:05:56.668-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:05:56.668-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:05:56.673-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.098 seconds
+[2024-12-18T12:06:27.948-0600] {processor.py:186} INFO - Started process (PID=1555) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:06:27.950-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:06:27.950-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:06:27.950-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:06:28.001-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:06:28.035-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:06:28.035-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:06:28.041-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:06:28.041-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:06:28.046-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.099 seconds
+[2024-12-18T12:06:59.231-0600] {processor.py:186} INFO - Started process (PID=1562) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:06:59.232-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:06:59.232-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:06:59.232-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:06:59.288-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:06:59.322-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:06:59.321-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:06:59.327-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:06:59.327-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:06:59.332-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.103 seconds
+[2024-12-18T12:07:30.502-0600] {processor.py:186} INFO - Started process (PID=1567) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:07:30.503-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:07:30.504-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:07:30.504-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:07:30.555-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:07:30.588-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:07:30.588-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:07:30.594-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:07:30.594-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:07:30.600-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.100 seconds
+[2024-12-18T12:08:01.825-0600] {processor.py:186} INFO - Started process (PID=1571) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:08:01.827-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:08:01.827-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:08:01.827-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:08:01.883-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:08:01.917-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:08:01.917-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:08:01.922-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:08:01.922-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:08:01.927-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.103 seconds
+[2024-12-18T12:08:33.088-0600] {processor.py:186} INFO - Started process (PID=1576) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:08:33.090-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:08:33.090-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:08:33.090-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:08:33.141-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:08:33.175-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:08:33.175-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:08:33.181-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:08:33.181-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:08:33.186-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.099 seconds
+[2024-12-18T12:09:04.359-0600] {processor.py:186} INFO - Started process (PID=1580) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:09:04.361-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:09:04.361-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:09:04.361-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:09:04.412-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:09:04.447-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:09:04.447-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:09:04.453-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:09:04.453-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:09:04.458-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.100 seconds
+[2024-12-18T12:09:35.547-0600] {processor.py:186} INFO - Started process (PID=1587) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:09:35.548-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:09:35.549-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:09:35.549-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:09:35.604-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:09:35.639-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:09:35.639-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:09:35.645-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:09:35.645-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:09:35.650-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.104 seconds
+[2024-12-18T12:10:06.639-0600] {processor.py:186} INFO - Started process (PID=1591) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:10:06.641-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:10:06.641-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:10:06.641-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:10:06.692-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:10:06.726-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:10:06.726-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:10:06.732-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:10:06.732-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:10:06.737-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.099 seconds
+[2024-12-18T12:11:01.904-0600] {processor.py:186} INFO - Started process (PID=1602) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:11:01.905-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:11:01.906-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:11:01.906-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:11:01.957-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:11:01.990-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:11:01.990-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:11:01.996-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:11:01.996-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:11:02.001-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.098 seconds
+[2024-12-18T12:11:33.202-0600] {processor.py:186} INFO - Started process (PID=1607) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:11:33.203-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:11:33.204-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:11:33.204-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:11:33.260-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:11:33.294-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:11:33.294-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:11:33.300-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:11:33.300-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:11:33.305-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.104 seconds
+[2024-12-18T12:12:04.477-0600] {processor.py:186} INFO - Started process (PID=1621) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:12:04.479-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:12:04.479-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:12:04.479-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:12:04.532-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:12:04.566-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:12:04.566-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:12:04.572-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:12:04.572-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:12:04.577-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.101 seconds
+[2024-12-18T12:12:35.639-0600] {processor.py:186} INFO - Started process (PID=1636) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:12:35.640-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:12:35.640-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:12:35.640-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:12:35.698-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:12:35.733-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:12:35.733-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:12:35.739-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:12:35.739-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:12:35.744-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.107 seconds
+[2024-12-18T12:13:07.094-0600] {processor.py:186} INFO - Started process (PID=1640) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:13:07.095-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:13:07.096-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:13:07.096-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:13:07.151-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:13:07.184-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:13:07.184-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:13:07.190-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:13:07.190-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:13:07.195-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.103 seconds
+[2024-12-18T12:13:38.421-0600] {processor.py:186} INFO - Started process (PID=1649) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:13:38.423-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:13:38.423-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:13:38.423-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:13:38.492-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:13:38.535-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:13:38.535-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:13:38.541-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:13:38.541-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:13:38.546-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.127 seconds
+[2024-12-18T12:14:09.790-0600] {processor.py:186} INFO - Started process (PID=1657) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:14:09.792-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:14:09.792-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:14:09.792-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:14:09.852-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:14:09.889-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:14:09.889-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:14:09.895-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:14:09.895-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:14:09.900-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.112 seconds
+[2024-12-18T12:14:41.158-0600] {processor.py:186} INFO - Started process (PID=1661) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:14:41.159-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:14:41.159-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:14:41.159-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:14:41.210-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:14:41.244-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:14:41.244-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:14:41.250-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:14:41.250-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:14:41.255-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.099 seconds
+[2024-12-18T12:15:12.492-0600] {processor.py:186} INFO - Started process (PID=1668) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:15:12.494-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:15:12.494-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:15:12.494-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:15:12.550-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:15:12.584-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:15:12.584-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:15:12.590-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:15:12.590-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:15:12.595-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.104 seconds
+[2024-12-18T12:15:43.701-0600] {processor.py:186} INFO - Started process (PID=1677) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:15:43.703-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:15:43.703-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:15:43.703-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:15:43.754-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:15:43.789-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:15:43.789-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:15:43.795-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:15:43.795-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:15:43.800-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.101 seconds
+[2024-12-18T12:16:02.617-0600] {processor.py:186} INFO - Started process (PID=1686) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:16:02.618-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:16:02.619-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:16:02.619-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:16:02.669-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:16:02.704-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:16:02.704-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:16:02.709-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:16:02.709-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:16:02.715-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.098 seconds
+[2024-12-18T12:16:33.754-0600] {processor.py:186} INFO - Started process (PID=1708) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:16:33.755-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:16:33.755-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:16:33.755-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:16:33.806-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:16:33.839-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:16:33.839-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:16:33.845-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:16:33.845-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:16:33.849-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.097 seconds
+[2024-12-18T12:17:04.871-0600] {processor.py:186} INFO - Started process (PID=1734) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:17:04.872-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:17:04.873-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:17:04.872-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:17:04.928-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:17:04.962-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:17:04.962-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:17:04.968-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:17:04.968-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:17:04.972-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.103 seconds
+[2024-12-18T12:17:36.015-0600] {processor.py:186} INFO - Started process (PID=1739) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:17:36.016-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:17:36.017-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:17:36.017-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:17:36.070-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:17:36.106-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:17:36.106-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:17:36.112-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:17:36.112-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:17:36.117-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.104 seconds
+[2024-12-18T12:18:07.159-0600] {processor.py:186} INFO - Started process (PID=1784) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:18:07.161-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:18:07.161-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:18:07.161-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:18:07.219-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:18:07.256-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:18:07.256-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:18:07.262-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:18:07.262-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:18:07.268-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.110 seconds
+[2024-12-18T12:18:38.378-0600] {processor.py:186} INFO - Started process (PID=1802) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:18:38.380-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:18:38.380-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:18:38.380-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:18:38.433-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:18:38.466-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:18:38.466-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:18:38.472-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:18:38.472-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:18:38.477-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.100 seconds
+[2024-12-18T12:19:09.481-0600] {processor.py:186} INFO - Started process (PID=1809) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:19:09.483-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:19:09.483-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:19:09.483-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:19:09.537-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:19:09.571-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:19:09.571-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:19:09.576-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:19:09.576-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:19:09.581-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.102 seconds
+[2024-12-18T12:19:40.594-0600] {processor.py:186} INFO - Started process (PID=1813) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:19:40.596-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:19:40.597-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:19:40.597-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:19:40.653-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:19:40.687-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:19:40.687-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:19:40.693-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:19:40.693-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:19:40.697-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.105 seconds
+[2024-12-18T12:20:11.774-0600] {processor.py:186} INFO - Started process (PID=1820) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:20:11.776-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-12-18T12:20:11.776-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:20:11.776-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:20:11.833-0600] {processor.py:925} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-12-18T12:20:11.868-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:20:11.868-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T12:20:11.874-0600] {logging_mixin.py:190} INFO - [2024-12-18T12:20:11.874-0600] {dag.py:4180} INFO - Setting next_dagrun for youtube_data_pipeline to 2024-12-18 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-18T12:20:11.880-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.107 seconds

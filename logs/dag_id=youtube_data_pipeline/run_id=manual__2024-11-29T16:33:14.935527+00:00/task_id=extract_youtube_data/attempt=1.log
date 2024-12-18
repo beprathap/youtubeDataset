@@ -1,0 +1,142 @@
+[2024-11-29T10:33:16.560-0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-29T10:33:16.563-0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_data_pipeline.extract_youtube_data manual__2024-11-29T16:33:14.935527+00:00 [queued]>
+[2024-11-29T10:33:16.565-0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_data_pipeline.extract_youtube_data manual__2024-11-29T16:33:14.935527+00:00 [queued]>
+[2024-11-29T10:33:16.565-0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-29T10:33:16.568-0600] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_youtube_data> on 2024-11-29 16:33:14.935527+00:00
+[2024-11-29T10:33:16.570-0600] {standard_task_runner.py:72} INFO - Started process 41769 to run task
+[2024-11-29T10:33:16.572-0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'youtube_data_pipeline', 'extract_youtube_data', 'manual__2024-11-29T16:33:14.935527+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/youtube_data_pipeline.py', '--cfg-path', '/var/folders/zs/sf3lbkjd0p58grc25nrggk1h0000gn/T/tmp7yq7m5ck']
+[2024-11-29T10:33:16.574-0600] {standard_task_runner.py:105} INFO - Job 24: Subtask extract_youtube_data
+[2024-11-29T10:33:16.585-0600] {task_command.py:467} INFO - Running <TaskInstance: youtube_data_pipeline.extract_youtube_data manual__2024-11-29T16:33:14.935527+00:00 [running]> on host mac.attlocal.net
+[2024-11-29T10:33:16.605-0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='youtube_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_youtube_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-29T16:33:14.935527+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-29T16:33:14.935527+00:00'
+[2024-11-29T10:33:16.606-0600] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-29T10:33:16.614-0600] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2024-11-29T10:33:16.732-0600] {logging_mixin.py:190} INFO - Raw data saved to /Users/beprathap/airflow/dags/data/raw/channel_stats_20241129_103316.json
+[2024-11-29T10:33:17.196-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UClFSU9_bUb4Rc6OYfTt5SPw
+[2024-11-29T10:33:17.835-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCX6OQ3DkcsbYNE6H8uQQuVA
+[2024-11-29T10:33:18.320-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCsooa4yRKGN_zEE8iknghZA
+[2024-11-29T10:33:18.668-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCh9IfI45mmk59eDvSWtuuhQ
+[2024-11-29T10:33:19.134-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCBJycsmduvYEL83R_U4JriQ
+[2024-11-29T10:33:19.638-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UC4rlAVgAK0SGk-yTfe48Qpw
+[2024-11-29T10:33:20.171-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UC0v-tlzsn0QZwJnkiaUSJVQ
+[2024-11-29T10:33:20.638-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCzQUP1qoWDoEbmsQxvdjxgQ
+[2024-11-29T10:33:21.030-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCoYATiiqNT7csPFqtWWfc5w
+[2024-11-29T10:33:21.471-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UC-lHJZR3Gqxm24_Vd_AJ5Yw
+[2024-11-29T10:33:21.914-0600] {logging_mixin.py:190} INFO - Retrieved video details for channel UCq-Fj5jknLsUf-MWSy4_brA
+[2024-11-29T10:33:22.075-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Vjwk7SLtn6E
+[2024-11-29T10:33:22.230-0600] {logging_mixin.py:190} INFO - Retrieved comments for video BSiqL1lnWaY
+[2024-11-29T10:33:22.440-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 81xsD8eIX2I
+[2024-11-29T10:33:22.645-0600] {logging_mixin.py:190} INFO - Retrieved comments for video T1K66vQAlAk
+[2024-11-29T10:33:22.819-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 2G1dJbImnSM
+[2024-11-29T10:33:22.956-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Hh7QedJ1kPs
+[2024-11-29T10:33:23.138-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Xe26rdkZISg
+[2024-11-29T10:33:23.317-0600] {logging_mixin.py:190} INFO - Retrieved comments for video b1wzT5K7tEU
+[2024-11-29T10:33:23.510-0600] {logging_mixin.py:190} INFO - Retrieved comments for video qZGyAEjfAVI
+[2024-11-29T10:33:23.768-0600] {logging_mixin.py:190} INFO - Retrieved comments for video K9hxNTjqT4E
+[2024-11-29T10:33:23.916-0600] {logging_mixin.py:190} INFO - Retrieved comments for video yf_C8penA9k
+[2024-11-29T10:33:24.094-0600] {logging_mixin.py:190} INFO - Retrieved comments for video dc089EZRGcg
+[2024-11-29T10:33:24.312-0600] {logging_mixin.py:190} INFO - Retrieved comments for video I9mw5UlDyPI
+[2024-11-29T10:33:24.419-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Xj0Jtjg3lHQ
+[2024-11-29T10:33:24.686-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 9UtcHPCEBgg
+[2024-11-29T10:33:24.815-0600] {logging_mixin.py:190} INFO - Retrieved comments for video ZNt_GoOBHq8
+[2024-11-29T10:33:24.990-0600] {logging_mixin.py:190} INFO - Retrieved comments for video dDVFnfCwjHA
+[2024-11-29T10:33:25.160-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Kt2HvqRruHQ
+[2024-11-29T10:33:25.325-0600] {logging_mixin.py:190} INFO - Retrieved comments for video snX5YyflrGw
+[2024-11-29T10:33:25.450-0600] {logging_mixin.py:190} INFO - Retrieved comments for video nbzQdlWrcnk
+[2024-11-29T10:33:25.555-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 46RDkiy5h3U
+[2024-11-29T10:33:25.765-0600] {logging_mixin.py:190} INFO - Retrieved comments for video idrbwnWLJ7w
+[2024-11-29T10:33:26.121-0600] {logging_mixin.py:190} INFO - Retrieved comments for video WJ-XXQCcXik
+[2024-11-29T10:33:26.501-0600] {logging_mixin.py:190} INFO - Retrieved comments for video lq8TNKZVEWs
+[2024-11-29T10:33:26.839-0600] {logging_mixin.py:190} INFO - Retrieved comments for video tMXjUWvJJto
+[2024-11-29T10:33:27.250-0600] {logging_mixin.py:190} INFO - Retrieved comments for video qsc3YZ2S924
+[2024-11-29T10:33:27.554-0600] {logging_mixin.py:190} INFO - Retrieved comments for video IdWXT391FJE
+[2024-11-29T10:33:27.864-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Bgc1C1xI2dA
+[2024-11-29T10:33:28.169-0600] {logging_mixin.py:190} INFO - Retrieved comments for video FZc-Y9gqjHI
+[2024-11-29T10:33:28.581-0600] {logging_mixin.py:190} INFO - Retrieved comments for video daV-tMnZeIw
+[2024-11-29T10:33:28.748-0600] {logging_mixin.py:190} INFO - Retrieved comments for video wXXqaKwsJPA
+[2024-11-29T10:33:28.899-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 3FgwfKSniC0
+[2024-11-29T10:33:29.077-0600] {logging_mixin.py:190} INFO - Retrieved comments for video J4plrANz61E
+[2024-11-29T10:33:29.273-0600] {logging_mixin.py:190} INFO - Retrieved comments for video P8o9TVzqfWk
+[2024-11-29T10:33:29.442-0600] {logging_mixin.py:190} INFO - Retrieved comments for video XyZIZZ-_QIk
+[2024-11-29T10:33:29.813-0600] {logging_mixin.py:190} INFO - Retrieved comments for video txLDfMzL3kE
+[2024-11-29T10:33:29.978-0600] {logging_mixin.py:190} INFO - Retrieved comments for video cPpzfmX8b9c
+[2024-11-29T10:33:30.143-0600] {logging_mixin.py:190} INFO - Retrieved comments for video QROPM4sCpnI
+[2024-11-29T10:33:30.353-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 3eg6z17etgM
+[2024-11-29T10:33:30.525-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 0SFRzpUqCxw
+[2024-11-29T10:33:30.652-0600] {logging_mixin.py:190} INFO - Retrieved comments for video l3_nECzo_EA
+[2024-11-29T10:33:30.749-0600] {logging_mixin.py:190} INFO - Retrieved comments for video haDjmBT9tu4
+[2024-11-29T10:33:30.957-0600] {logging_mixin.py:190} INFO - Retrieved comments for video ZvgZWqaranw
+[2024-11-29T10:33:31.173-0600] {logging_mixin.py:190} INFO - Retrieved comments for video fgm5uZaS3-E
+[2024-11-29T10:33:31.376-0600] {logging_mixin.py:190} INFO - Retrieved comments for video _9prH7NFmLI
+[2024-11-29T10:33:31.538-0600] {logging_mixin.py:190} INFO - Retrieved comments for video qkYoBNdcXBU
+[2024-11-29T10:33:31.700-0600] {logging_mixin.py:190} INFO - Retrieved comments for video kkX8_nbBqBQ
+[2024-11-29T10:33:32.062-0600] {logging_mixin.py:190} INFO - Retrieved comments for video -T0MGehwWvE
+[2024-11-29T10:33:32.239-0600] {logging_mixin.py:190} INFO - Retrieved comments for video HN-WH7C4K0Q
+[2024-11-29T10:33:32.436-0600] {logging_mixin.py:190} INFO - Retrieved comments for video VdOlqcg9uMQ
+[2024-11-29T10:33:32.531-0600] {logging_mixin.py:190} INFO - Retrieved comments for video LYZm-Io7lvg
+[2024-11-29T10:33:32.672-0600] {logging_mixin.py:190} INFO - Retrieved comments for video UKI8mzdGGbo
+[2024-11-29T10:33:32.828-0600] {logging_mixin.py:190} INFO - Retrieved comments for video wxZ2b1qjs5g
+[2024-11-29T10:33:32.939-0600] {logging_mixin.py:190} INFO - Retrieved comments for video jsxtzqx6ddI
+[2024-11-29T10:33:33.124-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 8veXdMO4GQ0
+[2024-11-29T10:33:33.247-0600] {logging_mixin.py:190} INFO - Retrieved comments for video WfivhXjJFt4
+[2024-11-29T10:33:33.392-0600] {logging_mixin.py:190} INFO - Retrieved comments for video lT-Npu0dCwI
+[2024-11-29T10:33:33.552-0600] {logging_mixin.py:190} INFO - Retrieved comments for video IN4wHscit_w
+[2024-11-29T10:33:33.698-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 8wHmZST59SE
+[2024-11-29T10:33:33.818-0600] {logging_mixin.py:190} INFO - Retrieved comments for video v6vLkZwHXzA
+[2024-11-29T10:33:33.984-0600] {logging_mixin.py:190} INFO - Retrieved comments for video CZNKG3de6Zk
+[2024-11-29T10:33:34.173-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 2joHcdjJTbk
+[2024-11-29T10:33:34.305-0600] {logging_mixin.py:190} INFO - Retrieved comments for video dtagq7YMwyI
+[2024-11-29T10:33:34.435-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 5VRo2vcZqH0
+[2024-11-29T10:33:34.578-0600] {logging_mixin.py:190} INFO - Retrieved comments for video AjQA-TkqgrE
+[2024-11-29T10:33:34.712-0600] {logging_mixin.py:190} INFO - Retrieved comments for video OTLiU5gpmxg
+[2024-11-29T10:33:34.807-0600] {logging_mixin.py:190} INFO - Retrieved comments for video uGIr1uEvYLM
+[2024-11-29T10:33:34.911-0600] {logging_mixin.py:190} INFO - Retrieved comments for video tU7Ili9-NfQ
+[2024-11-29T10:33:35.055-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 9b061jhzG4o
+[2024-11-29T10:33:35.267-0600] {logging_mixin.py:190} INFO - Retrieved comments for video B3O3DVkKpFo
+[2024-11-29T10:33:35.367-0600] {logging_mixin.py:190} INFO - Retrieved comments for video dpx_2eUyvqc
+[2024-11-29T10:33:35.507-0600] {logging_mixin.py:190} INFO - Retrieved comments for video ye8MOfxD5nU
+[2024-11-29T10:33:35.628-0600] {logging_mixin.py:190} INFO - Retrieved comments for video bvKNjXawwSc
+[2024-11-29T10:33:35.710-0600] {logging_mixin.py:190} INFO - Retrieved comments for video FzPlfjTtxlc
+[2024-11-29T10:33:35.831-0600] {logging_mixin.py:190} INFO - Retrieved comments for video SbW6FTU69bw
+[2024-11-29T10:33:36.029-0600] {logging_mixin.py:190} INFO - Retrieved comments for video hCepzIrkbDE
+[2024-11-29T10:33:36.129-0600] {logging_mixin.py:190} INFO - Retrieved comments for video nN7Xnj9uR1M
+[2024-11-29T10:33:36.223-0600] {logging_mixin.py:190} INFO - Retrieved comments for video mZkHwI7cX4Y
+[2024-11-29T10:33:36.317-0600] {logging_mixin.py:190} INFO - Retrieved comments for video D_kUi6BsGe4
+[2024-11-29T10:33:36.561-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Lr5FEZUCJG8
+[2024-11-29T10:33:36.686-0600] {logging_mixin.py:190} INFO - Retrieved comments for video hrxVJhIcPjw
+[2024-11-29T10:33:36.758-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video 7geKKEdDguc
+[2024-11-29T10:33:36.923-0600] {logging_mixin.py:190} INFO - Retrieved comments for video hVI8OK4kNQQ
+[2024-11-29T10:33:37.018-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video 6n9MoZ3SR-Y
+[2024-11-29T10:33:37.110-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video q9TEBgfByvQ
+[2024-11-29T10:33:37.244-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video xptaRSkdgyI
+[2024-11-29T10:33:37.400-0600] {logging_mixin.py:190} INFO - Retrieved comments for video Q4rN5s8Iw9k
+[2024-11-29T10:33:37.512-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video NKhmDCcOADw
+[2024-11-29T10:33:37.698-0600] {logging_mixin.py:190} INFO - Retrieved comments for video ovUZmBpdVnc
+[2024-11-29T10:33:37.786-0600] {logging_mixin.py:190} INFO - Failed to retrieve comments for video 3tTVp_r2ROI
+[2024-11-29T10:33:37.961-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 8fLZQYiI3mg
+[2024-11-29T10:33:38.150-0600] {logging_mixin.py:190} INFO - Retrieved comments for video vCqZQOqUiqo
+[2024-11-29T10:33:38.495-0600] {logging_mixin.py:190} INFO - Retrieved comments for video mNHgVZPlh5g
+[2024-11-29T10:33:38.838-0600] {logging_mixin.py:190} INFO - Retrieved comments for video DEgt25yYidY
+[2024-11-29T10:33:39.197-0600] {logging_mixin.py:190} INFO - Retrieved comments for video n2nTd1VbsLM
+[2024-11-29T10:33:39.484-0600] {logging_mixin.py:190} INFO - Retrieved comments for video uakp2SrXOwQ
+[2024-11-29T10:33:39.828-0600] {logging_mixin.py:190} INFO - Retrieved comments for video vDZHCYCd5Bo
+[2024-11-29T10:33:40.146-0600] {logging_mixin.py:190} INFO - Retrieved comments for video D0-IrQY4ix8
+[2024-11-29T10:33:40.399-0600] {logging_mixin.py:190} INFO - Retrieved comments for video yNsIh0ciYiI
+[2024-11-29T10:33:40.630-0600] {logging_mixin.py:190} INFO - Retrieved comments for video F-yEoHL7MYY
+[2024-11-29T10:33:40.789-0600] {logging_mixin.py:190} INFO - Retrieved comments for video D2sGJX9GiKo
+[2024-11-29T10:33:40.950-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 2SpWyCQjltU
+[2024-11-29T10:33:41.111-0600] {logging_mixin.py:190} INFO - Retrieved comments for video u1SUfkKtWlY
+[2024-11-29T10:33:41.277-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 6jLxaglH5ys
+[2024-11-29T10:33:41.380-0600] {logging_mixin.py:190} INFO - Retrieved comments for video -V8oOhQQe9c
+[2024-11-29T10:33:41.504-0600] {logging_mixin.py:190} INFO - Retrieved comments for video VMI6polf-lQ
+[2024-11-29T10:33:41.618-0600] {logging_mixin.py:190} INFO - Retrieved comments for video nI1CeeN8tf0
+[2024-11-29T10:33:41.807-0600] {logging_mixin.py:190} INFO - Retrieved comments for video lAQFPkng95Q
+[2024-11-29T10:33:42.016-0600] {logging_mixin.py:190} INFO - Retrieved comments for video 7n3Ctsy9LAw
+[2024-11-29T10:33:42.161-0600] {logging_mixin.py:190} INFO - Retrieved comments for video PS0nQuHfM5U
+[2024-11-29T10:33:42.201-0600] {logging_mixin.py:190} INFO - Video comments saved to /Users/beprathap/airflow/dags/data/raw/video_comments_20241129_103316.json
+[2024-11-29T10:33:56.883-0600] {logging_mixin.py:190} INFO - Video categories saved to /Users/beprathap/airflow/dags/data/raw/video_categories_20241129_103316.json
+[2024-11-29T10:33:56.884-0600] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-29T10:33:56.886-0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-29T10:33:56.887-0600] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=youtube_data_pipeline, task_id=extract_youtube_data, run_id=manual__2024-11-29T16:33:14.935527+00:00, execution_date=20241129T163314, start_date=20241129T163316, end_date=20241129T163356
+[2024-11-29T10:33:56.928-0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-29T10:33:56.932-0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-29T10:33:56.933-0600] {local_task_job_runner.py:245} INFO - ::endgroup::

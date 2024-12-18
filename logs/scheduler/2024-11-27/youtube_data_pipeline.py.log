@@ -1,0 +1,135 @@
+[2024-11-26T18:07:18.611-0600] {processor.py:186} INFO - Started process (PID=27542) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T18:07:18.611-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-11-26T18:07:18.612-0600] {logging_mixin.py:190} INFO - [2024-11-26T18:07:18.612-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T18:07:18.620-0600] {logging_mixin.py:190} INFO - [2024-11-26T18:07:18.619-0600] {dagbag.py:387} ERROR - Failed to import: /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/beprathap/airflow/dags/youtube_data_pipeline.py", line 4, in <module>
+    from include.main import main
+ModuleNotFoundError: No module named 'include'
+[2024-11-26T18:07:18.620-0600] {processor.py:927} WARNING - No viable dags retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T18:07:18.656-0600] {logging_mixin.py:190} INFO - [2024-11-26T18:07:18.656-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-26T18:07:18.660-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.051 seconds
+[2024-11-26T19:33:30.546-0600] {processor.py:186} INFO - Started process (PID=27730) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T19:33:30.546-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-11-26T19:33:30.547-0600] {logging_mixin.py:190} INFO - [2024-11-26T19:33:30.547-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T19:33:30.554-0600] {logging_mixin.py:190} INFO - [2024-11-26T19:33:30.554-0600] {dagbag.py:387} ERROR - Failed to import: /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/beprathap/airflow/dags/youtube_data_pipeline.py", line 4, in <module>
+    from include.main import main
+ModuleNotFoundError: No module named 'include'
+[2024-11-26T19:33:30.554-0600] {processor.py:927} WARNING - No viable dags retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T19:33:30.591-0600] {logging_mixin.py:190} INFO - [2024-11-26T19:33:30.591-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-26T19:33:30.596-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.052 seconds
+[2024-11-26T20:06:38.656-0600] {processor.py:186} INFO - Started process (PID=27924) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:06:38.658-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-11-26T20:06:38.658-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:06:38.658-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:06:38.664-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:06:38.664-0600] {dagbag.py:387} ERROR - Failed to import: /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/beprathap/airflow/dags/youtube_data_pipeline.py", line 4, in <module>
+    from include.main import main
+ModuleNotFoundError: No module named 'include'
+[2024-11-26T20:06:38.664-0600] {processor.py:927} WARNING - No viable dags retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:06:38.695-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:06:38.695-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-26T20:06:38.699-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.044 seconds
+[2024-11-26T20:07:52.029-0600] {processor.py:186} INFO - Started process (PID=28073) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:07:52.030-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-11-26T20:07:52.030-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:07:52.030-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:07:52.036-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:07:52.036-0600] {dagbag.py:387} ERROR - Failed to import: /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/beprathap/airflow/dags/youtube_data_pipeline.py", line 4, in <module>
+    from include.main import main
+ModuleNotFoundError: No module named 'include'
+[2024-11-26T20:07:52.036-0600] {processor.py:927} WARNING - No viable dags retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:07:52.067-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:07:52.067-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-26T20:07:52.071-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.043 seconds
+[2024-11-26T20:10:46.883-0600] {processor.py:186} INFO - Started process (PID=28193) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:10:46.885-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-11-26T20:10:46.885-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:10:46.885-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:10:46.891-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:10:46.891-0600] {dagbag.py:387} ERROR - Failed to import: /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/beprathap/airflow/dags/youtube_data_pipeline.py", line 4, in <module>
+    from include.main import main
+ModuleNotFoundError: No module named 'include'
+[2024-11-26T20:10:46.892-0600] {processor.py:927} WARNING - No viable dags retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:10:46.922-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:10:46.922-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-26T20:10:46.926-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.044 seconds
+[2024-11-26T20:11:51.422-0600] {processor.py:186} INFO - Started process (PID=28311) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:11:51.422-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-11-26T20:11:51.422-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:11:51.422-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:11:51.429-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:11:51.428-0600] {dagbag.py:387} ERROR - Failed to import: /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/beprathap/airflow/dags/youtube_data_pipeline.py", line 4, in <module>
+    from include.main import main
+ModuleNotFoundError: No module named 'include'
+[2024-11-26T20:11:51.429-0600] {processor.py:927} WARNING - No viable dags retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:11:51.458-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:11:51.458-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-26T20:11:51.463-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.042 seconds
+[2024-11-26T20:50:09.605-0600] {processor.py:186} INFO - Started process (PID=28447) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:50:09.605-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-11-26T20:50:09.605-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:50:09.605-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:50:09.612-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:50:09.612-0600] {dagbag.py:387} ERROR - Failed to import: /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/beprathap/airflow/dags/youtube_data_pipeline.py", line 4, in <module>
+    from include.main import main
+ModuleNotFoundError: No module named 'include'
+[2024-11-26T20:50:09.613-0600] {processor.py:927} WARNING - No viable dags retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:50:09.644-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:50:09.644-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-26T20:50:09.649-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.045 seconds
+[2024-11-26T20:51:39.073-0600] {processor.py:186} INFO - Started process (PID=28644) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:51:39.074-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-11-26T20:51:39.074-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:51:39.074-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:51:39.080-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:51:39.080-0600] {dagbag.py:387} ERROR - Failed to import: /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/beprathap/airflow/dags/youtube_data_pipeline.py", line 4, in <module>
+    from include.main import main
+ModuleNotFoundError: No module named 'include'
+[2024-11-26T20:51:39.080-0600] {processor.py:927} WARNING - No viable dags retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:51:39.110-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:51:39.110-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-26T20:51:39.115-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.043 seconds
+[2024-11-26T20:52:47.576-0600] {processor.py:186} INFO - Started process (PID=28799) to work on /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:52:47.576-0600] {processor.py:914} INFO - Processing file /Users/beprathap/airflow/dags/youtube_data_pipeline.py for tasks to queue
+[2024-11-26T20:52:47.576-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:52:47.576-0600] {dagbag.py:588} INFO - Filling up the DagBag from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:52:47.583-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:52:47.583-0600] {dagbag.py:387} ERROR - Failed to import: /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/beprathap/airflow/dags/youtube_data_pipeline.py", line 4, in <module>
+    from include.main import main
+ModuleNotFoundError: No module named 'include'
+[2024-11-26T20:52:47.583-0600] {processor.py:927} WARNING - No viable dags retrieved from /Users/beprathap/airflow/dags/youtube_data_pipeline.py
+[2024-11-26T20:52:47.613-0600] {logging_mixin.py:190} INFO - [2024-11-26T20:52:47.613-0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-26T20:52:47.617-0600] {processor.py:208} INFO - Processing /Users/beprathap/airflow/dags/youtube_data_pipeline.py took 0.043 seconds
