@@ -6,7 +6,7 @@ load_dotenv()
 # Get the project root directory
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-API_KEY = os.getenv('YOUTUBE_API_KEY')
+API_KEY = '***'
 CHANNEL_IDS = ['UClFSU9_bUb4Rc6OYfTt5SPw', # Ask Me Anything: Philip DeFranco Showw
                 'UCX6OQ3DkcsbYNE6H8uQQuVA', # Challenge: MrBeast
                 'UCsooa4yRKGN_zEE8iknghZA', # Educational: Ted-Ed
